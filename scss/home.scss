@@ -1,19 +1,190 @@
 @import 'normalize.scss';
 
+*{
+	/*font-family: 'Roboto Condensed', sans-serif;*/
+}
+
 header{
 	background-color: #8dc63f;
+	position: absolute;
 	width:100%;
-	height: 90px;
+	height: 60px;
+	z-index: 2;
 
 	img{
-		width:76px;
-		height: 75px;
+		width:46px;
+		height: 45px;
 		float: left;
+		position: absolute;
+		top: 50%;
+		margin-top: -22px;
+		left: 8px;
 	}
 
 	h1{
 		float: left;
-		font-size: 16px;
+		font-size: 18px;
 		color: white;
+		line-height: 60px;
+		margin-top: 0;
+		margin-left: 64px;
+		height: 60px;
 	}
+}
+
+#section0{
+
+	.cover{
+		background-image: url(../images/imagenCoverMobile.png);
+		background-size: cover;
+		background-position: top left;
+		width: 100%;
+		height: 70%;
+		position: relative;
+
+		.callTo{
+			background-image: url(../images/baseOff.png);
+			background-size: cover;
+			width: 203px;
+			height: 181px;
+			top: 170px;
+			left: 30px;
+			position: absolute;
+
+			h2{
+				color: white;
+				margin: 10px 0px 0px 10px;
+			}
+
+			p{
+				color: white;
+				font-size: 12px;
+				padding: 0px 0px 0px 10px;
+				display: block;
+
+				span{
+					font-weight: bold;
+				}
+			}
+
+			a{
+				background-color: #ffd800;
+				border-radius: 10px;
+				display: block;
+				text-decoration: none;
+				padding:10px 10px;
+				color: black;
+				width: 70%;
+				margin-left: 10px;
+				text-align: center;
+			}
+		}
+	}
+	
+	.equipos{
+		width: 90%;
+		margin-top: -20px;
+		z-index: 10;
+		position: relative;
+
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.textFooter{
+		font-size: 12px;
+		padding: 0px 0px 0px 10px;
+		display: block;
+		text-align: center;
+		width: 96%;
+
+		span{
+			font-weight: bold;
+		}
+	}
+}
+
+#section1{
+
+	#col1{
+		
+		background-color: #f3f3f3;
+
+		.info{
+			padding-top: 72px;
+			width: 90%;
+			margin: 0 auto;
+		}
+
+		.tips{
+			list-style: none;
+			margin: 10px auto;
+			padding: 0;
+			width: 90%;
+			overflow: hidden;
+		}
+		
+		.tips > li{
+			margin: 0;
+			padding-top: 0;
+			margin-bottom: 20px;
+			position: relative;
+			width: 100%;
+			overflow: hidden;
+		}
+
+		.tips > li > div{
+			float: left;
+			position: relative;
+		}
+
+		.icon{
+			width: 52px;
+			height: 52px;
+		}
+
+		.datos{
+			width: 80%;
+			margin-left: 10px;
+		}
+		
+	}
+
+	#col2{
+		background-color: #f3f3f3;
+
+		.servicios{
+			list-style: none;
+			margin: 0 auto;
+			padding: 0;
+			width: 98%;
+			background-color: plum;
+			overflow: hidden;
+
+			li{
+				width: 4%!important;
+				background-color: peru;
+				display: inline-table;
+
+				div{
+					width: 100%;
+					background-color: yellow;
+
+					img{
+						width: 100%;
+						height: auto;
+					}
+
+				}
+
+				.texto{
+					font-size: 12px;
+					text-align: center;
+				}
+			}
+		}
+	}
+	
 }

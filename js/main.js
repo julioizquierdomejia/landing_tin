@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$('#fullpage').fullpage({
-		anchors: ['home', 'conoce', 'aprende', 'preguntas'],
+		anchors: ['home', 'info'],
 		verticalCentered: false,
 		slidesNavigation: true,
 		controlArrows: true,
