@@ -155,22 +155,29 @@ header{
 	#col2{
 		background-color: #f3f3f3;
 
+		h3{
+			margin: 0;
+			padding: 10px 0px 10px 18px;
+
+			i{
+				color: #ff8a00;
+			}
+		}
+
 		.servicios{
 			list-style: none;
 			margin: 0 auto;
 			padding: 0;
-			width: 98%;
-			background-color: plum;
+			width: 94%;
 			overflow: hidden;
 
 			li{
-				width: 4%!important;
-				background-color: peru;
-				display: inline-table;
+				width: 63px;
+				float: left;
+				margin:0px 2.2px;
 
 				div{
 					width: 100%;
-					background-color: yellow;
 
 					img{
 						width: 100%;
@@ -180,7 +187,7 @@ header{
 				}
 
 				.texto{
-					font-size: 12px;
+					font-size: 10px;
 					text-align: center;
 				}
 			}
