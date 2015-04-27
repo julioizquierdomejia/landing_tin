@@ -1,0 +1,135 @@
+@media(min-width: 320px){
+
+	header{
+		opacity:.6;
+
+		h1{
+			font-size: 18px;
+		}
+	}
+
+	#section0{
+
+		.cover{
+			
+			.callTo{
+				width: 223px;
+				height: 201px;
+				top: 170px;
+				left: 10px;
+				
+				h2{
+					font-size: 20px;
+				}
+
+				p{
+					font-size: 14px;
+				}
+
+				a{
+					font-size: 14px;
+				}
+			}
+		}
+		
+		.equipos{
+			margin-top: -10px;
+		}
+
+		.textFooter{
+			font-size: 14px;
+			width: 96%;
+			margin-top: 0;
+		}
+	}
+
+	#section1{
+
+		background-color: #f3f3f3;
+
+		#col1{
+
+			.info{
+				font-size: 16px;
+			}
+
+			.datos{
+				font-size: 14px;
+				margin-top: 4px;
+			}
+			
+		}
+
+		#col2{
+			background-color: #f3f3f3;
+
+			h3{
+				font-size: 18px;
+			}
+
+			.servicios{
+				list-style: none;
+				margin: 0 auto;
+				padding: 0;
+				width: 94%;
+				overflow: hidden;
+
+				li{
+					width: 63px;
+					float: left;
+					margin:0px 2.2px;
+
+					div{
+						width: 100%;
+
+						img{
+							width: 100%;
+							height: auto;
+						}
+
+					}
+
+					.texto{
+						font-size: 10px;
+						text-align: center;
+					}
+				}
+			}
+
+			.masInfo{
+				width: 90%;
+				height: 50px;
+				margin: 20px auto;
+
+				p{
+					width:55%;
+					float: left;
+					font-size: 13px;
+					text-align: right;
+					height: 100%;
+
+					span{
+						font-weight: bold;
+					}
+				}
+
+
+				a{
+					width: 42%;
+					height: 100%;
+					background-color: #ff8a00;
+					display: block;text-decoration: none;
+					color: white;
+					text-align: center;
+					float:right;
+					border-radius: 14px;
+					line-height: 50px;
+				}
+			}
+		}
+		
+	}
+
+
+}
+
