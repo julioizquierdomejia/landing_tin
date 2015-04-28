@@ -1,0 +1,59 @@
+@media(min-width: 1024px){
+	
+	#section0{
+
+		.cover{
+			background-image: url(../images/imagenCoverTablet.png);
+			height: 500px;
+			
+			.callTo{
+				width: 383px;
+				height: 300px;
+				top: 160px;
+				left: 20px;
+
+				h2{
+					font-size: 36px;
+					margin: 20px 0px 0px 20px;
+				}
+
+				p{
+					font-size: 22px;
+					padding: 0px 0px 0px 20px;
+
+				}
+
+				a{
+					border-radius: 14px;
+					padding:16px 10px;
+					width: 70%;
+					margin-left: 20px;
+					font-size: 22px;
+				}
+			}
+		}
+		
+		.equipos{
+			width: 35%;
+			margin-top: -37px;
+			float: right;
+
+			img{
+				width: 100%;
+				height: auto;
+			}
+		}
+
+		.textFooter{
+			font-size: 18px;
+			padding: 36px 0px 0px 10px;
+			text-align: right;
+			width: 53%;
+			float: left;
+
+			span{
+				font-weight: bold;
+			}
+		}
+	}
+}
